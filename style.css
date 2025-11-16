@@ -1,0 +1,108 @@
+/* BASIC */
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background: #0d0d0d;
+    color: white;
+}
+
+/* NAVBAR */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 40px;
+    background: #111;
+    align-items: center;
+    border-bottom: 2px solid #333;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #00eaff;
+}
+
+.nav-links {
+    display: flex;
+    gap: 25px;
+}
+
+.nav-links a {
+    color: #ddd;
+    text-decoration: none;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+.nav-links a:hover {
+    color: #00eaff;
+}
+
+/* HERO SECTION */
+.hero {
+    height: 90vh;
+    background: url('https://i.ibb.co/Bq4d7nB/gaming-bg.jpg') center/cover no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero-content h1 {
+    font-size: 48px;
+    color: #00eaff;
+}
+
+.hero-content p {
+    font-size: 18px;
+    margin: 10px 0 30px;
+}
+
+.btn {
+    padding: 12px 25px;
+    background: #00eaff;
+    color: #000;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: #00bcd4;
+}
+
+/* ABOUT */
+.about-section {
+    padding: 40px;
+}
+
+.about-card {
+    background: #111;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+/* GALLERY */
+.gallery-section {
+    padding: 40px;
+}
+
+.card-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.card {
+    background: #111;
+    padding: 20px;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    background: #1a1a1a;
+}
